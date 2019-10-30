@@ -1,0 +1,4 @@
+<h1>Type here and Check</h1>
+<input type="text"  [formControl]="gpa">
+<br>
+<div *ngIf="gpa.errors?.invalidGpa">Invalid GPA value</div>
